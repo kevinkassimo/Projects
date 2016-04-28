@@ -1,6 +1,6 @@
 {
   "name": "Lineutils",
   "tagline": "Lineutils, a foolish project",
-  "body": "###Lineutils\r\nBasic functions written in <a href=\"http://www.lmgtfy.com/?q=Javascript\">Javascript</a> (with <a href=\"http://www.lmgtfy.com/?q=Node.js\">Node.js</a>) to help manage sentences. Besides serving as a Javascript & Node.js practice for myself, it will also be used to help create a file-editing program.",
+  "body": "###Lineutils--A Fool's Project\r\nBasic functions written in <a href=\"http://www.lmgtfy.com/?q=Javascript\">Javascript</a> (with <a href=\"http://www.lmgtfy.com/?q=Node.js\">Node.js</a>) to help manage sentences. Besides serving as a Javascript & Node.js practice for myself, it will also be used to help create a file-editing program.",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
