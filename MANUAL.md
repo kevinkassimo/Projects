@@ -32,3 +32,6 @@ Object Line:
 		string[] split_at_type(type[, is_continuous])
 		string[] split_at_pattern(str)
 		string[] split_at(str)
+	--Chop:
+		string chop(args)
+		string chop_regex(args)

@@ -1,3 +1,11 @@
+2016-04-28  Kevin Qian  <kevinqian@Kevins-MacBook-Pro.local>
+
+	* chop_func.js: add Line.prototype.chop(args)
+	* chop_func.js:	add Line.prototype.chop_regex(args)
+	* ll_config.js: add ll_config.js to store strings for the usage
+	of Line.prototype.pass()
+	* tool_assemble.js: allow tools to be assembled
+
 2016-04-28  Kevin Qian  <kevinqian@s-169-232-80-114.resnet.ucla.edu>
 
 	* ALL: add the basic files for lineutils

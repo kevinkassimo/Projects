@@ -1,4 +1,6 @@
 'use strict'
+var Tool = require("./packs/tool_assemble.js");
+
 var Line = require("./packs/assemble.js");
 
 var test = new Line("t  开 h   1 11  11  23 1111 234");
@@ -23,10 +25,14 @@ var read = new Line(test.chop_blank());
 console.log(read.line);
 //console.log(read.split_at_type("number", false));
 
-var last = new Line("aaaa   bcd ccij");
+var last = new Line("aaaa   bcd ccij?!df??D!");
 console.log(last.squeeze_set(["a", "c", " "]));
 console.log(last.pass("squeeze_set", [["a", "c", " "]]));
 console.log(last.pass("chop_blank", []));
+//last.pass(lf.chop_blank, []);
+console.log(last.pass(Tool.str_f.chop_blank, []));
+console.log(last.pass(Tool.str_f.chop, ["a", " ", "i"]));
+console.log(last.chop_regex(/[?!]/g));
 
 //var sentence = new Line("I Am The First Person Who Went To College.");
 //console.log(sentence.split_by(" "));
