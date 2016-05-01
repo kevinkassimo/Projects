@@ -1,9 +1,3 @@
-2016-05-01  Kevin Qian  <kevinqian@s-169-232-80-118.resnet.ucla.edu>
-
-	* lib/line_lib/ll_config.js: Change the original export method to passing of an object.
-	* packs/tool_assemble: Change the originally adopted method of Object.assign to the better util.inherits(from node.js lib)
-	* line.js: Change the usage of Tool to remove the str_f between the Tool object and its function strings
-
 2016-04-28  Kevin Qian  <kevinqian@Kevins-MacBook-Pro.local>
 
 	* chop_func.js: add Line.prototype.chop(args)
